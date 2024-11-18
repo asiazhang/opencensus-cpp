@@ -35,8 +35,8 @@ namespace exporters {
 namespace trace {
 namespace {
 
-constexpr size_t kAttributeStringLen = 256;
-constexpr size_t kAnnotationStringLen = 256;
+constexpr size_t kAttributeStringLen = 25600000;
+constexpr size_t kAnnotationStringLen = 25600000;
 constexpr size_t kDisplayNameStringLen = 128;
 constexpr char kGoogleStackdriverTraceAddress[] = "cloudtrace.googleapis.com";
 
